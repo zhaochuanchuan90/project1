@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, TouchableWithoutFeedback } from 'react-native';
-import ModalBox from './components/ModalBox';
+import ModalBox from '../libs/ModalBox';
 
 export default class Root extends Component{
   constructor(props) {
@@ -21,7 +21,7 @@ export default class Root extends Component{
           </View>
         </TouchableWithoutFeedback>
 
-        <ModalBox ref="modalBoxRef" />
+        <ModalBox ref="modalBoxRef" color="#ed738d" />
       </View>
     )
   }
