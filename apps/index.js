@@ -16,7 +16,7 @@ export default class Root extends Component{
           </View>
         </TouchableWithoutFeedback>
         <TouchableWithoutFeedback>
-          <View style={[styles.btnWrapper, styles.center, { backgroundColor: '#ed604d', marginTop: 10, }]}>
+          <View style={[styles.btnWrapper, styles.center, { marginTop: 10, }]}>
             <Text style={styles.btnTxt}>日期组件</Text>
           </View>
         </TouchableWithoutFeedback>

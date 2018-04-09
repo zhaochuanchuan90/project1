@@ -18,9 +18,9 @@ export default class ModalBox extends Component{
       >
         <View style={[styles.wrapper, styles.center]}>
           <View style={[styles.box, styles.center]}>
-            <Text style={styles.txt}>公共组件弹窗</Text>
+            <Text style={[styles.txt, { color: 'white' }]}>公共组件弹窗</Text>
             <TouchableWithoutFeedback onPress={() => this.hide()}>
-              <View style={[styles.btnWrapper, styles.center, { marginTop: 10, }]}>
+              <View style={[styles.btnWrapper, styles.center, { marginTop: 30, }]}>
                 <Text style={styles.txt}>关闭弹窗</Text>
               </View>
             </TouchableWithoutFeedback>
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   box: {
     width: 300,
     height: 300,
-    backgroundColor: '#c3b360',
+    backgroundColor: '#ed738d',
   },
   center: {
     display: 'flex',
@@ -58,12 +58,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   btnWrapper: {
-    width: 70,
+    width: 100,
     height: 30,
-    backgroundColor: '#ed738d',
+    backgroundColor: 'white',
+    borderRadius: 5,
   },
   txt: {
     fontSize: 16,
-    color: 'white',
+    color: 'black',
   }
 })
