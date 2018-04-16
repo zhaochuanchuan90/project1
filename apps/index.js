@@ -17,7 +17,7 @@ export default class Root extends Component{
       <View style={[styles.wrapper, styles.center]}>
         <TouchableWithoutFeedback onPress={() => this.refs.modalBoxRef.show()}>
           <View style={[styles.btnWrapper, styles.center]}>
-            <Text style={styles.btnTxt}>弹窗1</Text>
+            <Text style={styles.btnTxt}>弹窗</Text>
           </View>
         </TouchableWithoutFeedback>
         <TouchableWithoutFeedback onPress={() => this.refs.selectTimeRef.show()}>
